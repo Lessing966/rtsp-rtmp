@@ -1,0 +1,48 @@
+2021-07-05 09:50:51.402 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-LLD97I6 with PID 16808 (H:\RTSPtoRTMP\target\classes started by admin in H:\RTSPtoRTMP)
+2021-07-05 09:50:51.412 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2021-07-05 09:50:52.671 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-07-05 09:50:52.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-07-05 09:50:52.682 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-05 09:50:52.683 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-07-05 09:50:52.772 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2021-07-05 09:50:52.772 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1248 ms
+2021-07-05 09:50:52.898 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-05 09:50:53.024 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-07-05 09:50:53.042 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2021-07-05 09:50:53.045 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 2.805 seconds (JVM running for 4.639)
+2021-07-05 09:50:53.048 [timeTimer] INFO  com.junction.util.TimerUtil - ******   ÊâßË°åÁªìÊùüÊé®ÊµÅÂÆöÊó∂‰ªªÂä°       BEGIN   ******
+2021-07-05 09:50:53.048 [timeTimer] INFO  com.junction.util.TimerUtil - ******   ÊâßË°åÂÆöÊó∂‰ªªÂä°       END     ******
+2021-07-05 09:50:59.281 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-05 09:50:59.281 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - ÊúçÂä°ÁªìÊùüÔºåÂºÄÂßãÈáäÊîæÁ©∫Èó¥...
+2021-07-05 09:53:41.276 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-LLD97I6 with PID 5396 (H:\RTSPtoRTMP\target\classes started by admin in H:\RTSPtoRTMP)
+2021-07-05 09:53:41.280 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2021-07-05 09:53:42.096 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-07-05 09:53:42.103 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-07-05 09:53:42.104 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-05 09:53:42.104 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-07-05 09:53:42.188 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2021-07-05 09:53:42.188 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 818 ms
+2021-07-05 09:53:42.337 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-05 09:53:42.456 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-07-05 09:53:42.474 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2021-07-05 09:53:42.476 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 1.777 seconds (JVM running for 3.632)
+2021-07-05 09:53:42.481 [timeTimer] INFO  com.junction.util.TimerUtil - ******   ÊâßË°åÁªìÊùüÊé®ÊµÅÂÆöÊó∂‰ªªÂä°       BEGIN   ******
+2021-07-05 09:53:42.481 [timeTimer] INFO  com.junction.util.TimerUtil - ******   ÊâßË°åÂÆöÊó∂‰ªªÂä°       END     ******
+2021-07-05 09:53:52.145 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-05 09:53:52.145 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - ÊúçÂä°ÁªìÊùüÔºåÂºÄÂßãÈáäÊîæÁ©∫Èó¥...
+2021-07-05 09:54:12.886 [main] INFO  com.junction.CameraServerApplicationTests - Starting CameraServerApplicationTests on DESKTOP-LLD97I6 with PID 12584 (started by admin in H:\RTSPtoRTMP)
+2021-07-05 09:54:12.888 [main] INFO  com.junction.CameraServerApplicationTests - No active profile set, falling back to default profiles: default
+2021-07-05 09:54:13.990 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-05 09:54:14.244 [main] INFO  com.junction.CameraServerApplicationTests - Started CameraServerApplicationTests in 1.788 seconds (JVM running for 2.771)
+2021-07-05 09:54:14.249 [timeTimer] INFO  com.junction.util.TimerUtil - ******   ÷¥––Ω· ¯Õ∆¡˜∂® ±»ŒŒÒ       BEGIN   ******
+2021-07-05 09:54:14.251 [timeTimer] INFO  com.junction.util.TimerUtil - ******   ÷¥––∂® ±»ŒŒÒ       END     ******
+2021-07-05 09:54:14.586 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-05 09:54:14.587 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - ∑˛ŒÒΩ· ¯£¨ø™ º Õ∑≈ø’º‰...
+2021-07-05 09:59:29.490 [main] INFO  com.junction.CameraServerApplicationTests - Starting CameraServerApplicationTests on DESKTOP-LLD97I6 with PID 8308 (started by admin in H:\RTSPtoRTMP)
+2021-07-05 09:59:29.493 [main] INFO  com.junction.CameraServerApplicationTests - No active profile set, falling back to default profiles: default
+2021-07-05 09:59:30.492 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-05 09:59:30.696 [main] INFO  com.junction.CameraServerApplicationTests - Started CameraServerApplicationTests in 1.568 seconds (JVM running for 2.449)
+2021-07-05 09:59:30.701 [timeTimer] INFO  com.junction.util.TimerUtil - ******   ÷¥––Ω· ¯Õ∆¡˜∂® ±»ŒŒÒ       BEGIN   ******
+2021-07-05 09:59:30.702 [timeTimer] INFO  com.junction.util.TimerUtil - ******   ÷¥––∂® ±»ŒŒÒ       END     ******
+2021-07-05 09:59:30.952 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-05 09:59:30.953 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - ∑˛ŒÒΩ· ¯£¨ø™ º Õ∑≈ø’º‰...

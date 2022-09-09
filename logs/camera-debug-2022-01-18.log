@@ -1,0 +1,5 @@
+2022-01-18 13:09:39.095 [main] DEBUG com.junction.CameraServerApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2022-01-18 13:17:39.505 [main] DEBUG com.junction.CameraServerApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2022-01-18 15:03:02.233 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   TCPCheck    BEGIN   ******
+2022-01-18 15:03:02.235 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   TCPCheck    END     ******
+2022-01-18 15:03:02.235 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   grabber.start()    BEGIN   ******

@@ -1,0 +1,14 @@
+2021-08-30 09:30:38.657 [main] DEBUG com.junction.CameraServerApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-08-30 09:52:59.612 [main] DEBUG com.junction.CameraServerApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-08-30 10:02:34.152 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   TCPCheck    BEGIN   ******
+2021-08-30 10:02:34.157 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   TCPCheck    END     ******
+2021-08-30 10:02:34.157 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   grabber.start()    BEGIN   ******
+2021-08-30 10:03:22.420 [main] DEBUG com.junction.CameraServerApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-08-30 10:03:38.221 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   TCPCheck    BEGIN   ******
+2021-08-30 10:03:38.231 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   TCPCheck    END     ******
+2021-08-30 10:03:38.231 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   grabber.start()    BEGIN   ******
+2021-08-30 10:11:32.228 [main] DEBUG com.junction.CameraServerApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-08-30 10:12:14.018 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   TCPCheck    BEGIN   ******
+2021-08-30 10:12:14.031 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   TCPCheck    END     ******
+2021-08-30 10:12:14.031 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   grabber.start()    BEGIN   ******
+2021-08-30 10:12:14.736 [pool-1-thread-1] DEBUG com.junction.util.CameraPush - ******   grabber.start()    END     ******

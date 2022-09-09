@@ -1,0 +1,442 @@
+2021-07-02 08:57:04.737 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-LLD97I6 with PID 8664 (H:\RTSPtoRTMP\target\classes started by admin in H:\RTSPtoRTMP)
+2021-07-02 08:57:04.747 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2021-07-02 08:57:07.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-07-02 08:57:07.558 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-07-02 08:57:07.558 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-02 08:57:07.568 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-07-02 08:57:07.977 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2021-07-02 08:57:07.977 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3150 ms
+2021-07-02 08:57:08.647 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-02 08:57:09.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-07-02 08:57:09.337 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2021-07-02 08:57:09.347 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 5.766 seconds (JVM running for 8.094)
+2021-07-02 08:57:09.367 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 08:57:09.367 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 08:58:09.367 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 08:58:09.373 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 08:59:09.369 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 08:59:09.383 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 08:59:20.832 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-02 08:59:20.833 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-02 08:59:20.851 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2021-07-02 08:59:21.075 [http-nio-8082-exec-3] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 08:59:25.702 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 开始推流...
+2021-07-02 09:00:09.374 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:00:09.374 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:01:09.378 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:01:09.378 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:02:09.384 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:02:09.387 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:03:09.391 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:03:09.415 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:04:09.394 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:04:09.394 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:05:09.395 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:05:09.395 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:06:09.395 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:06:09.397 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:07:09.396 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:07:09.397 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:08:09.396 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:08:09.397 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:08:14.995 [http-nio-8082-exec-7] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 09:09:09.397 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:09:09.397 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:10:09.398 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:10:09.399 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:11:09.398 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:11:09.399 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:12:09.400 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:12:09.425 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:13:09.399 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:13:09.400 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:14:09.400 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:14:09.401 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:15:09.400 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:15:09.401 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:16:09.400 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:16:09.401 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:17:09.401 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:17:09.554 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:18:09.401 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:18:09.402 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:19:09.402 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:19:09.403 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:20:09.403 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:20:09.405 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:21:09.404 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:21:09.407 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:22:09.405 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:22:09.405 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:23:09.406 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:23:09.407 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:24:09.407 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:24:09.408 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:24:40.906 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 推流结束...
+2021-07-02 09:25:09.407 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:25:09.408 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:26:09.408 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:26:09.408 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:27:09.408 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:27:09.410 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:28:09.409 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:28:09.410 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:28:36.058 [http-nio-8082-exec-1] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 09:28:37.204 [pool-1-thread-2] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 开始推流...
+2021-07-02 09:29:09.409 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:29:09.410 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:29:22.082 [http-nio-8082-exec-4] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 09:30:09.409 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:30:09.410 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:31:09.410 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:31:09.411 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:32:09.411 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:32:09.413 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:33:09.412 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:33:09.415 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:34:09.413 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:34:09.414 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:35:09.413 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:35:09.414 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:36:09.413 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:36:09.414 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:37:09.413 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:37:09.414 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:38:09.413 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:38:09.413 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:39:09.414 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:39:09.415 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:40:09.414 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:40:09.415 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:41:09.415 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:41:09.424 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:42:03.788 [http-nio-8082-exec-8] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 09:42:09.416 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:42:09.416 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:43:09.417 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:43:09.419 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:43:18.563 [pool-1-thread-2] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 推流结束...
+2021-07-02 09:44:09.417 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:44:09.418 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:45:09.417 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:45:09.417 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:46:09.418 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:46:09.418 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:47:09.418 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:47:09.418 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:48:09.419 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:48:09.419 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:49:09.420 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:49:09.420 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:49:47.812 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-LLD97I6 with PID 12228 (H:\RTSPtoRTMP\target\classes started by admin in H:\RTSPtoRTMP)
+2021-07-02 09:49:47.817 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2021-07-02 09:49:48.684 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-07-02 09:49:48.693 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-07-02 09:49:48.694 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-02 09:49:48.694 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-07-02 09:49:48.804 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2021-07-02 09:49:48.804 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 934 ms
+2021-07-02 09:49:48.958 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-02 09:49:49.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-07-02 09:49:49.090 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2021-07-02 09:49:49.092 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 2.007 seconds (JVM running for 4.144)
+2021-07-02 09:49:49.096 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:49:49.096 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:50:49.096 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:50:49.096 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:51:49.097 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:51:49.098 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:52:07.597 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-02 09:52:07.598 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-02 09:52:07.619 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2021-07-02 09:52:07.850 [http-nio-8082-exec-2] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 09:52:09.893 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 开始推流...
+2021-07-02 09:52:49.098 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:52:49.101 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:53:49.099 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:53:49.100 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:54:49.099 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:54:49.100 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:55:49.099 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:55:49.099 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:56:49.100 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:56:49.100 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:57:49.100 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:57:49.101 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:58:49.101 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:58:49.101 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 09:59:49.101 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 09:59:49.101 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:00:49.101 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:00:49.102 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:01:49.102 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:01:49.103 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:02:49.102 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:02:49.103 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:03:49.103 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:03:49.103 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:04:49.104 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:04:49.104 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:05:49.104 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:05:49.106 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:06:09.081 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 推流结束...
+2021-07-02 10:06:49.105 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:06:49.105 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:07:49.106 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:07:49.106 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:08:49.107 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:08:49.107 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:09:49.107 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:09:49.107 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:10:49.108 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:10:49.108 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:11:49.108 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:11:49.108 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:12:49.109 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:12:49.109 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:13:49.110 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:13:49.110 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:14:49.110 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:14:49.110 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:15:49.111 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:15:49.111 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:16:49.111 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:16:49.111 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:17:49.111 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:17:49.111 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:18:49.112 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:18:49.112 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:19:49.113 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:19:49.113 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:20:49.113 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:20:49.113 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:21:49.114 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:21:49.116 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:22:49.114 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:22:49.114 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:23:49.115 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:23:49.115 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:24:49.115 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:24:49.115 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:25:49.116 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:25:49.117 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:26:49.117 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:26:49.117 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:27:49.117 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:27:49.117 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:28:49.118 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:28:49.118 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:29:49.119 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:29:49.121 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:30:49.119 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:30:49.119 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:31:49.119 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:31:49.119 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:32:49.119 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:32:49.121 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:33:49.120 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:33:49.120 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:34:49.121 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:34:49.121 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:35:49.122 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:35:49.122 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:36:49.123 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:36:49.123 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:37:49.123 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:37:49.123 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:38:49.124 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:38:49.124 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:39:49.125 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:39:49.125 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:40:49.125 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:40:49.125 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:41:49.125 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:41:49.125 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:42:49.126 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:42:49.126 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:43:49.127 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:43:49.127 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:44:49.127 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:44:49.127 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:45:49.127 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:45:49.127 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:46:49.127 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:46:49.127 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:47:49.128 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:47:49.128 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:48:49.128 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:48:49.128 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:49:49.129 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:49:49.129 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:50:49.129 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:50:49.129 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:51:49.130 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:51:49.131 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:52:49.130 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:52:49.131 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:53:49.130 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:53:49.130 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:54:49.130 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:54:49.131 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:55:49.131 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:55:49.131 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:56:49.131 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:56:49.131 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:57:49.131 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:57:49.131 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:58:49.132 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:58:49.132 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 10:59:49.133 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 10:59:49.133 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 11:00:49.134 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 11:00:49.134 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 11:01:49.135 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 11:01:49.135 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 11:02:49.135 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 11:02:49.135 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 11:03:49.136 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 11:03:49.136 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 11:04:49.136 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 11:04:49.136 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 11:05:49.137 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 11:05:49.137 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 11:06:49.137 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       BEGIN   ******
+2021-07-02 11:06:49.138 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:31:11.221 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-LLD97I6 with PID 2236 (H:\RTSPtoRTMP\target\classes started by admin in H:\RTSPtoRTMP)
+2021-07-02 16:31:12.181 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2021-07-02 16:31:13.210 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-07-02 16:31:13.220 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-07-02 16:31:13.220 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-02 16:31:13.220 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-07-02 16:31:13.320 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2021-07-02 16:31:13.320 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1099 ms
+2021-07-02 16:31:13.500 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-02 16:31:13.650 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-07-02 16:31:13.670 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2021-07-02 16:31:13.670 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 3.383 seconds (JVM running for 5.711)
+2021-07-02 16:31:13.680 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:31:13.680 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:32:12.328 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-02 16:32:12.328 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-02 16:32:12.334 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-07-02 16:32:12.528 [http-nio-8082-exec-2] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 16:32:13.688 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:32:13.691 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:32:16.246 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 开始推流...
+2021-07-02 16:33:13.690 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:33:13.690 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:33:23.210 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 推流结束...
+2021-07-02 16:34:13.690 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:34:13.690 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:35:13.700 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:35:13.700 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:36:13.710 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:36:13.710 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:36:18.411 [http-nio-8082-exec-4] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 16:36:19.170 [pool-1-thread-2] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 开始推流...
+2021-07-02 16:37:13.710 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:37:13.712 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:37:19.803 [pool-1-thread-2] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 推流结束...
+2021-07-02 16:38:13.711 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:38:13.712 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:39:13.711 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:39:13.712 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:40:13.715 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:40:13.824 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:41:04.339 [http-nio-8082-exec-6] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 16:41:05.088 [pool-1-thread-3] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0 开始推流...
+2021-07-02 16:41:13.716 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:41:13.718 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:42:13.718 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:42:13.719 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:43:13.718 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:43:13.718 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:44:13.720 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:44:13.748 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:45:13.722 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:45:13.731 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:46:13.723 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:46:13.737 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:47:13.723 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:47:13.724 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:48:13.723 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:48:13.724 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:48:52.484 [http-nio-8082-exec-8] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=1&subtype=0
+2021-07-02 16:49:13.723 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:49:13.723 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:50:13.723 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:50:13.724 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:51:13.724 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:51:13.725 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:52:13.725 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:52:13.822 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:53:13.726 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:53:13.726 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:54:13.727 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:54:13.727 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:55:13.728 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:55:13.729 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:56:13.728 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:56:13.728 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:57:13.729 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:57:13.730 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:58:13.730 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:58:13.741 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 16:59:13.730 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 16:59:13.730 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:00:13.731 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:00:13.742 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:01:13.731 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:01:13.731 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:02:13.732 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:02:13.733 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:03:13.732 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:03:13.772 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:04:13.732 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:04:13.733 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:05:13.732 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:05:13.733 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:06:13.732 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:06:13.733 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:07:13.732 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:07:13.732 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:08:13.732 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:08:13.733 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:09:13.733 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:09:13.753 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:10:13.734 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:10:13.735 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:11:13.734 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:11:13.734 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:12:13.735 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:12:13.738 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:13:13.735 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:13:13.947 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:14:13.735 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:14:13.750 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:15:13.736 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:15:13.737 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:16:13.737 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:16:13.737 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:17:13.738 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:17:13.836 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:18:13.738 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:18:13.758 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:19:13.739 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:19:13.740 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:20:13.740 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:20:13.755 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:21:13.740 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:21:13.740 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:22:13.741 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:22:13.742 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:23:13.741 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:23:13.742 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:24:13.741 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:24:13.742 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:25:13.742 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:25:13.743 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:26:13.742 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:26:13.742 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-07-02 17:27:13.742 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-07-02 17:27:13.772 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******

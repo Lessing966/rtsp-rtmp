@@ -1,0 +1,22 @@
+2021-09-09 10:12:44.367 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-CBID165 with PID 9508 (C:\Users\Administrator\Desktop\RTSPtoRTMP\target\classes started by Administrator in C:\Users\Administrator\Desktop\RTSPtoRTMP)
+2021-09-09 10:12:44.370 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2021-09-09 10:12:45.224 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-09-09 10:12:45.231 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-09-09 10:12:45.231 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-09 10:12:45.231 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-09-09 10:12:45.331 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2021-09-09 10:12:45.331 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 897 ms
+2021-09-09 10:12:45.500 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-09 10:12:45.609 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-09-09 10:12:45.623 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2021-09-09 10:12:45.625 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 1.904 seconds (JVM running for 3.357)
+2021-09-09 10:12:45.627 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-09-09 10:12:45.627 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-09-09 10:12:51.324 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-09 10:12:51.324 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-09 10:12:51.327 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-09-09 10:12:51.486 [http-nio-8082-exec-1] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.0.110:554/cam/realmonitor?channel=1&subtype=0
+2021-09-09 10:13:45.639 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2021-09-09 10:13:45.639 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2021-09-09 10:13:48.123 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-09 10:13:48.123 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - 服务结束，开始释放空间...

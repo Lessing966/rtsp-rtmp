@@ -1,0 +1,320 @@
+2022-08-01 14:56:35.773 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-9HR8BMJ with PID 18056 (C:\Users\admin\Desktop\RTSPtoRTMP\target\classes started by admin in C:\Users\admin\Desktop\RTSPtoRTMP)
+2022-08-01 14:56:35.776 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2022-08-01 14:56:36.696 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-08-01 14:56:36.709 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-01 14:56:36.710 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-01 14:56:36.710 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-08-01 14:56:36.817 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2022-08-01 14:56:36.818 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 979 ms
+2022-08-01 14:56:36.980 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-01 14:56:37.114 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-08-01 14:56:37.136 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2022-08-01 14:56:37.139 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 1.94 seconds (JVM running for 3.398)
+2022-08-01 14:56:37.144 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 14:56:37.144 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 14:57:37.144 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 14:57:37.144 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 14:58:00.585 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 14:58:00.586 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-01 14:58:00.590 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-08-01 14:58:00.695 [http-nio-8082-exec-1] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=0&subtype=0
+2022-08-01 14:58:37.145 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 14:58:37.145 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 14:59:37.145 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 14:59:37.145 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:00:37.146 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:00:37.146 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:01:37.147 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:01:37.147 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:02:37.148 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:02:37.148 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:03:37.148 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:03:37.148 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:04:37.148 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:04:37.148 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:05:37.149 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:05:37.149 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:05:38.496 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:05:38.497 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - 服务结束，开始释放空间...
+2022-08-01 15:05:42.782 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-9HR8BMJ with PID 1956 (C:\Users\admin\Desktop\RTSPtoRTMP\target\classes started by admin in C:\Users\admin\Desktop\RTSPtoRTMP)
+2022-08-01 15:05:42.786 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2022-08-01 15:05:43.564 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-08-01 15:05:43.572 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:05:43.573 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-01 15:05:43.573 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-08-01 15:05:43.673 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2022-08-01 15:05:43.673 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 816 ms
+2022-08-01 15:05:43.827 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:05:43.967 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:05:43.990 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2022-08-01 15:05:43.993 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 1.733 seconds (JVM running for 3.11)
+2022-08-01 15:05:43.997 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:05:43.997 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:05:56.494 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 15:05:56.494 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-01 15:05:56.498 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-08-01 15:05:56.603 [http-nio-8082-exec-1] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=0&subtype=0
+2022-08-01 15:06:43.998 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:06:43.998 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:07:10.015 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:07:10.016 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - 服务结束，开始释放空间...
+2022-08-01 15:07:14.052 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-9HR8BMJ with PID 9668 (C:\Users\admin\Desktop\RTSPtoRTMP\target\classes started by admin in C:\Users\admin\Desktop\RTSPtoRTMP)
+2022-08-01 15:07:14.056 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2022-08-01 15:07:14.765 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-08-01 15:07:14.773 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:07:14.774 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-01 15:07:14.774 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-08-01 15:07:14.869 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2022-08-01 15:07:14.870 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 756 ms
+2022-08-01 15:07:15.006 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:07:15.121 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:07:15.140 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2022-08-01 15:07:15.142 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 1.585 seconds (JVM running for 2.962)
+2022-08-01 15:07:15.146 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:07:15.146 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:07:22.028 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 15:07:22.029 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-01 15:07:22.033 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-08-01 15:07:22.140 [http-nio-8082-exec-1] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=1&subtype=0
+2022-08-01 15:07:23.704 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=1&subtype=0 开始推流...
+2022-08-01 15:08:01.480 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:08:01.481 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - 服务结束，开始释放空间...
+2022-08-01 15:08:01.507 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=1&subtype=0 中断推流成功！
+2022-08-01 15:08:01.508 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=1&subtype=0 推流结束...
+2022-08-01 15:08:57.962 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-9HR8BMJ with PID 5316 (C:\Users\admin\Desktop\RTSPtoRTMP\target\classes started by admin in C:\Users\admin\Desktop\RTSPtoRTMP)
+2022-08-01 15:08:57.966 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2022-08-01 15:08:58.945 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-08-01 15:08:58.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:08:58.954 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-01 15:08:58.955 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-08-01 15:08:59.050 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2022-08-01 15:08:59.051 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1010 ms
+2022-08-01 15:08:59.189 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:08:59.312 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:08:59.333 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2022-08-01 15:08:59.336 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 1.951 seconds (JVM running for 3.358)
+2022-08-01 15:08:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:08:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:09:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:09:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:10:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:10:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:11:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:11:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:12:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:12:59.340 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:13:59.341 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:13:59.341 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:14:59.341 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:14:59.341 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:15:59.342 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:15:59.342 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:16:59.343 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:16:59.343 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:17:59.343 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:17:59.343 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:18:59.343 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:18:59.343 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:19:59.344 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:19:59.344 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:20:59.344 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:20:59.344 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:21:59.345 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:21:59.345 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:22:59.345 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:22:59.345 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:23:59.345 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:23:59.345 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:24:59.346 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:24:59.347 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:25:59.346 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:25:59.346 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:26:59.347 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:26:59.347 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:27:59.347 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:27:59.347 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:28:59.347 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:28:59.347 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:29:59.348 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:29:59.348 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:30:59.348 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:30:59.348 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:31:59.348 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:31:59.348 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:32:59.349 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:32:59.349 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:33:59.349 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:33:59.349 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:34:59.382 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:34:59.382 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:35:59.949 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:35:59.950 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:36:28.319 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:36:28.319 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - 服务结束，开始释放空间...
+2022-08-01 15:40:42.497 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-9HR8BMJ with PID 18212 (C:\Users\admin\Desktop\RTSPtoRTMP\target\classes started by admin in C:\Users\admin\Desktop\RTSPtoRTMP)
+2022-08-01 15:40:42.501 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2022-08-01 15:40:43.225 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-08-01 15:40:43.233 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:40:43.234 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-01 15:40:43.234 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-08-01 15:40:43.327 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2022-08-01 15:40:43.327 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 766 ms
+2022-08-01 15:40:43.465 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:40:43.580 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:40:43.599 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2022-08-01 15:40:43.601 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 1.645 seconds (JVM running for 3.137)
+2022-08-01 15:40:43.605 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:40:43.605 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:41:43.605 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:41:43.605 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:41:47.672 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 15:41:47.672 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-01 15:41:47.676 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-08-01 15:42:43.605 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:42:43.605 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:43:43.606 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:43:43.606 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:44:43.606 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:44:43.606 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:45:43.607 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:45:43.607 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:46:43.608 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:46:43.608 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:47:43.609 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:47:43.609 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:48:43.609 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:48:43.609 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:48:56.549 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:48:56.550 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - 服务结束，开始释放空间...
+2022-08-01 15:49:00.895 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-9HR8BMJ with PID 14972 (C:\Users\admin\Desktop\RTSPtoRTMP\target\classes started by admin in C:\Users\admin\Desktop\RTSPtoRTMP)
+2022-08-01 15:49:00.898 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2022-08-01 15:49:01.645 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-08-01 15:49:01.654 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:49:01.655 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-01 15:49:01.655 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-08-01 15:49:01.755 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2022-08-01 15:49:01.755 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 798 ms
+2022-08-01 15:49:01.897 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-01 15:49:02.017 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-08-01 15:49:02.037 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2022-08-01 15:49:02.040 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 1.655 seconds (JVM running for 3.105)
+2022-08-01 15:49:02.044 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:49:02.044 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:50:02.045 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:50:02.045 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:51:02.045 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:51:02.045 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:52:02.047 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:52:02.047 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:52:26.983 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 15:52:26.983 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-01 15:52:26.988 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-08-01 15:52:27.093 [http-nio-8082-exec-1] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=1&subtype=0
+2022-08-01 15:52:28.599 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=1&subtype=0 开始推流...
+2022-08-01 15:53:02.048 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:53:02.049 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:54:02.048 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:54:02.048 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:55:02.048 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:55:02.048 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:56:02.048 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:56:02.048 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:57:02.049 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:57:02.049 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:58:02.049 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:58:02.049 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 15:59:02.049 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 15:59:02.049 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:00:02.049 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:00:02.049 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:01:02.050 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:01:02.051 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:02:02.050 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:02:02.050 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:03:02.051 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:03:02.051 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:04:02.052 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:04:02.052 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:05:02.052 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:05:02.052 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:06:02.053 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:06:02.053 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:07:02.053 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:07:02.053 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:08:02.054 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:08:02.054 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:09:02.054 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:09:02.054 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:10:02.055 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:10:02.055 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:11:02.055 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:11:02.055 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:12:02.056 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:12:02.056 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:13:02.057 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:13:02.057 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:14:02.057 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:14:02.057 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:15:02.058 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:15:02.058 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:16:02.058 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:16:02.058 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:17:02.059 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:17:02.059 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:18:02.060 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:18:02.060 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:19:02.066 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:19:02.067 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:20:02.067 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:20:02.067 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:21:02.068 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:21:02.068 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:22:02.068 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:22:02.068 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:23:02.069 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:23:02.070 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:24:02.070 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:24:02.070 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:25:02.070 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:25:02.070 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:25:20.961 [http-nio-8082-exec-3] INFO  com.junction.controller.CameraController - 打开：rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=1&subtype=0
+2022-08-01 16:26:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:26:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:27:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:27:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:28:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:28:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:29:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:29:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:30:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:30:02.071 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:31:02.072 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:31:02.072 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:32:02.073 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:32:02.073 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:33:02.073 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:33:02.073 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:34:02.073 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:34:02.073 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:35:02.074 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:35:02.074 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:36:02.075 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:36:02.075 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:37:02.075 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:37:02.075 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:38:02.075 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:38:02.075 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:39:02.076 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:39:02.076 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:40:02.076 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:40:02.076 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:41:02.077 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:41:02.077 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:42:02.077 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:42:02.077 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:43:02.078 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-08-01 16:43:02.078 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-08-01 16:43:11.622 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-01 16:43:11.623 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - 服务结束，开始释放空间...
+2022-08-01 16:43:11.652 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=1&subtype=0 中断推流成功！
+2022-08-01 16:43:11.653 [pool-1-thread-1] INFO  com.junction.util.CameraPush - rtsp://admin:L242E836@192.168.2.27:554/cam/realmonitor?channel=1&subtype=0 推流结束...

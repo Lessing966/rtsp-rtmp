@@ -1,0 +1,18 @@
+2021-08-30 10:02:38.427 [pool-1-thread-1] ERROR com.junction.util.CameraPush - ffmpeg错误信息：
+org.bytedeco.javacv.FrameGrabber$Exception: avformat_open_input() error -1094995529: Could not open input "rtsp://admin:L242E836@192.168.0.110:554/cam/realmonitor?channel=1&subtype=0". (Has setFormat() been called?)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.startUnsafe(FFmpegFrameGrabber.java:979)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.start(FFmpegFrameGrabber.java:910)
+	at com.junction.util.CameraPush.from(CameraPush.java:124)
+	at com.junction.thread.CameraThread$MyRunnable.run(CameraThread.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-08-30 10:03:42.683 [pool-1-thread-1] ERROR com.junction.util.CameraPush - ffmpeg错误信息：
+org.bytedeco.javacv.FrameGrabber$Exception: avformat_open_input() error -1094995529: Could not open input "rtsp://admin:L242E836@192.168.0.110:554/cam/realmonitor?channel=1&subtype=0". (Has setFormat() been called?)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.startUnsafe(FFmpegFrameGrabber.java:979)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.start(FFmpegFrameGrabber.java:910)
+	at com.junction.util.CameraPush.from(CameraPush.java:124)
+	at com.junction.thread.CameraThread$MyRunnable.run(CameraThread.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

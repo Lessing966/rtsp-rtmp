@@ -1,0 +1,2 @@
+2022-01-14 14:18:53.012 [pool-1-thread-1] ERROR com.junction.util.CameraPush - 与拉流IP：   192.168.0.109   端口：   554    建立TCP连接失败！
+2022-01-14 16:52:00.760 [pool-1-thread-1] ERROR com.junction.util.CameraPush - 与推流IP：   192.168.0.112   端口：   1935 建立TCP连接失败！

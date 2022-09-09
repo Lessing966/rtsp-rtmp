@@ -1,0 +1,18 @@
+2022-05-17 10:16:50.018 [main] INFO  com.junction.CameraServerApplication - Starting CameraServerApplication on DESKTOP-9HR8BMJ with PID 4208 (C:\Users\admin\Desktop\RTSPtoRTMP\target\classes started by admin in C:\Users\admin\Desktop\RTSPtoRTMP)
+2022-05-17 10:16:50.022 [main] INFO  com.junction.CameraServerApplication - No active profile set, falling back to default profiles: default
+2022-05-17 10:16:51.103 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-05-17 10:16:51.113 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-05-17 10:16:51.114 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-17 10:16:51.114 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-05-17 10:16:51.225 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/camera] - Initializing Spring embedded WebApplicationContext
+2022-05-17 10:16:51.225 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1164 ms
+2022-05-17 10:16:51.383 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-17 10:16:51.539 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-05-17 10:16:51.560 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/camera'
+2022-05-17 10:16:51.564 [main] INFO  com.junction.CameraServerApplication - Started CameraServerApplication in 2.179 seconds (JVM running for 4.129)
+2022-05-17 10:16:51.567 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-05-17 10:16:51.567 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-05-17 10:17:51.567 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行结束推流定时任务       BEGIN   ******
+2022-05-17 10:17:51.567 [timeTimer] INFO  com.junction.util.TimerUtil - ******   执行定时任务       END     ******
+2022-05-17 10:18:21.082 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-17 10:18:21.082 [SpringContextShutdownHook] INFO  com.junction.CameraServerApplication - 服务结束，开始释放空间...

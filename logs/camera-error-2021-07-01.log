@@ -1,0 +1,29 @@
+2021-07-01 10:43:09.865 [pool-1-thread-1] ERROR com.junction.util.CameraPush - 与拉流IP：   192.168.31.173   端口：   554    建立TCP连接失败！
+2021-07-01 10:49:51.922 [pool-1-thread-1] ERROR com.junction.util.CameraPush - ffmpeg错误信息：
+org.bytedeco.javacv.FrameGrabber$Exception: avformat_open_input() error -875574520: Could not open input "rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=0&subtype=0". (Has setFormat() been called?)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.startUnsafe(FFmpegFrameGrabber.java:979)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.start(FFmpegFrameGrabber.java:910)
+	at com.junction.util.CameraPush.from(CameraPush.java:124)
+	at com.junction.thread.CameraThread$MyRunnable.run(CameraThread.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-01 10:50:34.430 [pool-1-thread-1] ERROR com.junction.util.CameraPush - ffmpeg错误信息：
+org.bytedeco.javacv.FrameGrabber$Exception: avformat_open_input() error -875574520: Could not open input "rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=0&subtype=0". (Has setFormat() been called?)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.startUnsafe(FFmpegFrameGrabber.java:979)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.start(FFmpegFrameGrabber.java:910)
+	at com.junction.util.CameraPush.from(CameraPush.java:124)
+	at com.junction.thread.CameraThread$MyRunnable.run(CameraThread.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-01 11:55:43.566 [pool-1-thread-2] ERROR com.junction.util.CameraPush - ffmpeg错误信息：
+org.bytedeco.javacv.FrameGrabber$Exception: avformat_open_input() error -875574520: Could not open input "rtsp://admin:L242E836@192.168.31.173:554/cam/realmonitor?channel=0&subtype=0". (Has setFormat() been called?)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.startUnsafe(FFmpegFrameGrabber.java:979)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.start(FFmpegFrameGrabber.java:910)
+	at com.junction.util.CameraPush.from(CameraPush.java:124)
+	at com.junction.thread.CameraThread$MyRunnable.run(CameraThread.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-01 14:13:40.036 [pool-1-thread-5] ERROR com.junction.util.CameraPush - 与拉流IP：   192.168.31.173   端口：   554    建立TCP连接失败！
